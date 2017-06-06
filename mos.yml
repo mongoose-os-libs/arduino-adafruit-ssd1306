@@ -1,10 +1,8 @@
 author: mongoose-os
-name: arduino-adafruit-ssd1306
 description: Arduino Adafruit SSD1306 library
 type: lib
-# arch: PLATFORM
 version: 1.0
-skeleton_version: 2017-05-18
+
 sources:
   - src
 libs:
@@ -12,3 +10,10 @@ libs:
   - origin: https://github.com/mongoose-os-libs/arduino-wire
   - origin: https://github.com/mongoose-os-libs/arduino-spi
   - origin: https://github.com/mongoose-os-libs/arduino-adafruit-gfx
+
+tags:
+  - arduino
+  - c
+  - js
+
+skeleton_version: 2017-05-18
