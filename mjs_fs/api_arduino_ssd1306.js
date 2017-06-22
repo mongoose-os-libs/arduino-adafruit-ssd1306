@@ -1,5 +1,5 @@
 // Arduino Adafruit_SSD1306 library API. Source C API is defined at:
-// [mgos_arduino_ssd1306.h](https://github.com/cesanta/mongoose-os/blob/master/arduino_drivers/Arduino/mgos_arduino_ssd1306.h)
+// [mgos_arduino_ssd1306.h](https://github.com/mongoose-os-libs/arduino-adafruit-ssd1306/blob/master/src/mgos_arduino_ssd1306.h)
 
 let Adafruit_SSD1306 = {
   _ci2c: ffi('void *mgos_ssd1306_create_i2c(int, int)'),
