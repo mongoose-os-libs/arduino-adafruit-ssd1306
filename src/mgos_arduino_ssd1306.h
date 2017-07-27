@@ -5,11 +5,13 @@
  * Arduino Adafruit_SSD1306 library API wrapper
  */
 
+#ifndef CS_MOS_LIBS_ARDUINO_ADAFRUIT_SSD1306_SRC_MGOS_ARDUINO_SSD1306_H_
+#define CS_MOS_LIBS_ARDUINO_ADAFRUIT_SSD1306_SRC_MGOS_ARDUINO_SSD1306_H_
+
 #include "Adafruit_SSD1306.h"
 
 #ifdef __cplusplus
-extern "C"
-{
+extern "C" {
 #endif
 
 // Initialize Adafruit_SSD1306 library for I2C.
@@ -104,4 +106,6 @@ int mgos_ssd1306_get_cursor_y(Adafruit_SSD1306 *ssd);
 
 #ifdef __cplusplus
 }
-#endif  /* __cplusplus */
+#endif
+
+#endif /* CS_MOS_LIBS_ARDUINO_ADAFRUIT_SSD1306_SRC_MGOS_ARDUINO_SSD1306_H_ */
